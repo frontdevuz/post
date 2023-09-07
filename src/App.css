@@ -1,0 +1,37 @@
+::selection {
+  background-color: lime;
+  color: white;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  box-shadow: 2px 0px 8px grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+input,
+button,textarea {
+  height: 35px;
+  box-shadow: 0px 0px 10px grey;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+input::placeholder {
+  font-size: 16px;
+}
+button {
+  background: pink;
+}
+button:active{
+  box-shadow:0px 0px 10px black;
+}
